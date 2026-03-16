@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bispo & Oliver - Segurança do Trabalho e Saúde Ocupacional em Santo Antônio de Jesus"
+    />
+
+    <title>Bispo & Oliver | Segurança do Trabalho</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" type="image/jpg" href="./img/favicon.ico" />
+  </head>
+  <body class="font-sans">
+    <!-- NAVBAR COM SUA LOGO REAL -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+      <div
+        class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center"
+      >
+        <a href="#" class="flex items-center">
+          <img src="./img/logo.jpg" alt="Bispo & Oliver" class="h-50 w-auto" />
+        </a>
+
+        <div class="hidden md:flex gap-8 text-lg">
+          <a href="#servicos" class="hover:text-[#003366] transition"
+            >Serviços</a
+          >
+          <a href="#diferenciais" class="hover:text-[#003366] transition"
+            >Diferenciais</a
+          >
+          <a href="#contato" class="hover:text-[#003366] transition">Contato</a>
+        </div>
+
+        <a
+          href="https://wa.me/5575991855135"
+          target="_blank"
+          class="bg-[#003366] text-white px-8 py-3 rounded-full font-bold hover:bg-[#002244] transition hidden md:block"
+        >
+          WhatsApp
+        </a>
+
+        <button id="hamburger" class="md:hidden text-3xl text-[#003366]">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden bg-white py-6 border-t">
+        <div class="flex flex-col gap-6 px-6 text-lg">
+          <a href="#servicos" class="mobile-link">Serviços</a>
+          <a href="#diferenciais" class="mobile-link">Diferenciais</a>
+          <a href="#contato" class="mobile-link">Contato</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section
+      class="hero-bg h-screen bg-cover bg-center flex items-center text-white relative"
+    >
+      <div class="absolute inset-0 bg-black/60"></div>
+      <div class="max-w-5xl mx-auto px-6 text-center relative z-10">
+        <h1 class="text-5xl md:text-6xl font-bold mb-6">
+          Segurança que protege vidas
+        </h1>
+        <p class="text-2xl mb-10">
+          Especialistas em PCMSO, PGR, treinamentos NR e assessoria completa em
+          Santo Antônio de Jesus e região.
+        </p>
+        <a
+          href="https://wa.me/5575991855135"
+          target="_blank"
+          class="bg-[#003366] text-white text-2xl font-bold px-12 py-6 rounded-full inline-block hover:bg-[#002244]"
+        >
+          Falar no WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-12">Nossos Serviços</h2>
+        <div class="grid md:grid-cols-3 gap-8" id="servicos-grid"></div>
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section id="diferenciais" class="py-20 bg-[#003366] text-white">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold mb-12">
+          Por que escolher a Bispo & Oliver?
+        </h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="p-8">
+            <i class="fa-solid fa-shield-alt text-5xl mb-4"></i>
+            <p class="font-bold text-xl mt-4">Conformidade Total</p>
+          </div>
+          <div class="p-8">
+            <i class="fa-solid fa-clock text-5xl mb-4"></i>
+            <p class="font-bold text-xl mt-4">Prazo Rápido</p>
+          </div>
+          <div class="p-8">
+            <i class="fa-solid fa-handshake text-5xl mb-4"></i>
+            <p class="font-bold text-xl mt-4">Atendimento Humanizado</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section id="contato" class="py-20 bg-white text-center">
+      <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-8">
+          Pronto para proteger sua empresa?
+        </h2>
+        <a
+          href="https://wa.me/5575991855135"
+          target="_blank"
+          class="inline-block bg-[#003366] text-white text-2xl font-bold px-12 py-6 rounded-3xl hover:bg-[#002244]"
+        >
+          Falar no WhatsApp agora
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-white py-12">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <img
+          src="./img/logo.jpg"
+          alt="Bispo & Oliver"
+          class="h-16 mx-auto mb-6 opacity-80"
+        />
+        <p class="text-gray-400">
+          Segurança do Trabalho e Saúde Ocupacional • Santo Antônio de Jesus -
+          BA
+        </p>
+        <p class="mt-8 text-sm text-gray-500">
+          © 2026 Bispo & Oliver - Todos os direitos reservados
+        </p>
+      </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP -->
+    <a
+      href="https://wa.me/5575991855135"
+      target="_blank"
+      class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition text-3xl z-50"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
