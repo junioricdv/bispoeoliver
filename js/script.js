@@ -12,27 +12,27 @@ document.querySelectorAll(".mobile-link").forEach((link) => {
 // === SERVIÇOS COM IMAGENS ===
 const servicos = [
   {
-    img: "./img/pcmso.jpg",
+    img: "/img/pcmso.jpg",
     title: "PCMSO",
     desc: "Programa de Controle Médico de Saúde Ocupacional completo e atualizado.",
   },
   {
-    img: "./img/pgr.jpg",
+    img: "/img/pgr.jpg",
     title: "PGR + Inventário de Riscos",
     desc: "Programa de Gerenciamento de Riscos com LTCAT incluso.",
   },
   {
-    img: "./img/treinamento.jpg",
+    img: "/img/treinamento.jpg",
     title: "Treinamentos NR",
     desc: "Todas as normas regulamentadoras (NR-5, NR-10, NR-12, NR-35 e mais).",
   },
   {
-    img: "./img/epi.jpg",
+    img: "/img/epi.jpg",
     title: "Fornecimento de EPI/EPC",
     desc: "Indicação técnica, venda e controle de validade.",
   },
   {
-    img: "./img/laudo.jpg",
+    img: "/img/laudo.jpg",
     title: "Laudos e Perícias",
     desc: "Laudos ergonômicos, periciais e investigação de acidentes.",
   },
